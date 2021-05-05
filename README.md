@@ -1,6 +1,6 @@
 # StyleGAN for Landscape Photographs
 
-***Being Updated***
+***...Being Updated...***
 
 This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
