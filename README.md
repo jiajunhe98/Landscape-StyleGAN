@@ -2,7 +2,7 @@
 
 ***...Being Updated...***
 
-This repository contains codes which:
+This repository (WILL) contain codes which:
 - re-implement StyleGAN in PyTorch;
 - train StyleGAN for virtual landscape photographs.
 
