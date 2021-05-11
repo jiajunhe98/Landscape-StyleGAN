@@ -1,11 +1,13 @@
 # StyleGAN for Landscape Photographs
 
-***...Being Updated...***
+***......Being Updated......***
 
 
 
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
  <br />Uncurated set of images producted by the generator.
+ 
+ <br /><br />
 
 
 ## This repository contains codes which:
