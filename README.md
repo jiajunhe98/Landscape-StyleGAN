@@ -7,8 +7,6 @@
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
  <br />Uncurated set of images producted by the generator.
  
- <br /><br />
-
 
 ## This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
