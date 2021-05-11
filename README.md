@@ -1,6 +1,6 @@
 # StyleGAN for Landscape Photographs
 
-***......Being Updated......***
+# ***......Being Updated......***
 
 
 
