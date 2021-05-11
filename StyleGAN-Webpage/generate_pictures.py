@@ -5,6 +5,7 @@ import math
 import gc
 
 
+
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()
@@ -27,7 +28,7 @@ mapping_activation = "LeakyReLU"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
-def save_tensor_images(image_tensor, size, num_images, nrow):
+def save_tensor_images(image_tensor, size, num_images, nrow, time, detail):
 
     image_unflat = image_tensor.detach().cpu()
     image_grid = make_grid(image_unflat[:num_images], nrow=nrow, padding=2, pad_value=1, scale_each=True)
@@ -42,14 +43,14 @@ def save_tensor_images(image_tensor, size, num_images, nrow):
     plt.gca().yaxis.set_major_locator(plt.NullLocator())
     plt.subplots_adjust(top=1, bottom=0, right=1, left=0, hspace=0, wspace=0)
     plt.margins(0, 0)
-    fig.savefig("save.jpg", dpi=100, pad_inches=0)
+    fig.savefig("./plots/save"+str(num_images)+str(time)+str(detail)+".jpg", dpi=100, pad_inches=0)
     plt.close()
     del image_grid
     del image_unflat
     gc.collect()
 
 
-def generate(num, nrow, time=4, detail=4):
+def generate(num, nrow, time, detail):
     gen = Generator_without_noise_mapping().to(device)
     stage = 6
     gen.load_state_dict(torch.load("GenNet.pkl"))
@@ -89,7 +90,7 @@ def generate(num, nrow, time=4, detail=4):
         for i in range(1, math.ceil(num/4)): # just to save memory
             image = gen.forward(w[i * 4: i * 4 + 4, :, :], stage, 1, truncation_psi=0.8, noise=1)
             images = torch.cat([images, image], dim=0)
-        save_tensor_images(images, (3, images.shape[2], images.shape[2]), num, nrow)
+        save_tensor_images(images, (3, images.shape[2], images.shape[2]), num, nrow, time, detail)
     del gen
     del map
     del mlp_all
@@ -120,5 +121,6 @@ def check_time(w, time, detail, mlp_all, mlp_night, mlp_day):
 
 
     return res
+
 
 
