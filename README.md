@@ -2,10 +2,11 @@
 
 ***...Being Updated...***
 
-Uncurated set of images generated:
+
 
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
 
+\* Uncurated set of images producted by the generator.
 
 
 ## This repository contains codes which:
