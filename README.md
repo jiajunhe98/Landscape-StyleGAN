@@ -1,6 +1,6 @@
 # StyleGAN for Landscape Photographs
 
-# ***......Being Updated......***
+## ***......Being Updated......***
 
 
 
@@ -8,7 +8,7 @@
  <br />Uncurated set of images producted by the generator.
  
 
-## This repository contains codes which:
+### This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
 - train StyleGAN on landscape photos;
 - classify photos in the disentangled latent space;
