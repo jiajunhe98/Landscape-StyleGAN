@@ -8,3 +8,4 @@ This repository contains codes which:
 - classify photos in the disentangled latent space;
 - display results on [this app](https://taking-non-existing-photos.herokuapp.com/).
 
+![image]()
