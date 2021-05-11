@@ -4,7 +4,7 @@
 
 Uncurated set of images generated:
 
-![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/results.png)
+![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
 
 
 
