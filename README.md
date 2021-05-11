@@ -8,5 +8,10 @@ This repository contains codes which:
 - classify photos in the disentangled latent space;
 - display results on [this app](https://taking-non-existing-photos.herokuapp.com/).
 
+
+
+Uncurated set of images generated:
+
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/results.png)
-Uncurated set of images generated.
+
+
