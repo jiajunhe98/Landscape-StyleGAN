@@ -38,10 +38,10 @@ app.layout = html.Div([
     dcc.Slider(
         id='num',
         min=2,
-        max=6,
+        max=12,
         value=4,
-        marks={2:2, 3:3, 4:4, 5:5, 6:6},
-        step=2,
+        marks={2:2, 4:4, 6:6, 8:8, 10:10, 12:12},
+        step=1,
     ),
     html.H6(children="Choosing the time", style={'textAlign': 'center'}),
     dcc.Dropdown(
@@ -67,15 +67,15 @@ app.layout = html.Div([
         children=dcc.Graph(id='landscape', figure=get_initial_fig()),
     ),
     html.Div(
-        children="NB. As the free memory quota is limited, these pictures were generated and saved in advance to save memory. If generating in real-time are wanted, please click the checkbox below. But it can be slow and may exceed the memory quota."),
+        children="NB. As the free memory quota is limited, these pictures were generated(but uncurated) in advance to save memory. If generating in real-time is wanted, please click the checkbox below. But it can be slow and may exceed the memory quota."),
     dcc.Checklist(id='generate',
                   options=[
-                      {'label': "Generate in real-time", 'value': 1}],
+                      {'label': "Generate in real-time(only works for numbers ≤ 4)", 'value': 1}],
                   value=[]
                   ),
     html.H5(children="  ", style={'textAlign': 'center'}),
-    html.A("Check the source code here", href='https://github.com/hejj16/Landscape-StyleGAN', target="_blank"),
-    html.H5(children="  ", style={'textAlign': 'center'}),
+    html.A("Check the source code", href='https://github.com/hejj16/Landscape-StyleGAN', target="_blank"),
+    html.Div(children="By @Jiajun He", style = {"fontSize":"15px", "color":"gray", "textAlign":"right"},)
 ], style={'width': '60%',
           'display': 'inline-block',
           'padding-left': '20%',
@@ -106,8 +106,10 @@ def set_cities_value(available_options):
             )
 def update_figure_2(click, num, time, details, gen):
     if click is not None and click != 0:
-        if num in [1, 2, 3, 5]:
+        if num in [1, 2, 3, 5, 7, 11]:
             nrow = num
+        elif num == 12: nrow = 4
+        elif num == 9: nrow = 3
         else: nrow = num // 2
 
         if time == 0:
@@ -117,16 +119,16 @@ def update_figure_2(click, num, time, details, gen):
         else:
             detail = 4
 
-        if 1 in gen:
+        if 1 in gen and num <= 4:
             generate(num, nrow, time, detail)
             img = plt.imread("./plots/save" + str(num) + str(time) + str(detail) + ".jpg")
         else:
             print("Use pre-saved pictures")
-            if len(random_n) > 15:
+            if len(random_n) > 9:
                 random_n.pop(0)
-            n = random.randint(0, 29)
+            n = random.randint(0, 14)
             while n in random_n:
-                n = random.randint(0, 29)
+                n = random.randint(0, 14)
             random_n.append(n)
             img = plt.imread("./plots/save"+str(num)+str(time)+str(detail)+"_"+str(n)+".jpg")
         fig = px.imshow(img)
