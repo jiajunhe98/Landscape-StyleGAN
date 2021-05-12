@@ -121,6 +121,7 @@ for random_n in range(15, 30):
             generate(random_n, 4, 2, time, 4)
             generate(random_n, 5, 5, time, 4)
             generate(random_n, 6, 3, time, 4)
+            # Add more acorrding to the app version
         else:
             for detail in [0, 1, 4]:
                 generate(random_n, 1, 1, time, detail)
@@ -129,3 +130,4 @@ for random_n in range(15, 30):
                 generate(random_n, 4, 2, time, detail)
                 generate(random_n, 5, 5, time, detail)
                 generate(random_n, 6, 3, time, detail)
+                # Add more acorrding to the app version
