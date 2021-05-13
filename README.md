@@ -3,7 +3,7 @@
 ## ***......Being Updated......***
 
 
-#### **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
+### **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
  <br />Uncurated set of images producted by the generator. 
 
@@ -13,9 +13,6 @@
 - progressively train StyleGAN on landscape photos;
 - classify photos in the disentangled latent space;
 - display the results with Dash and deploy the model on Heroku platform.
-
-
-
 
 
 
@@ -34,6 +31,7 @@ The models are then trained using [this notebook](https://github.com/hejj16/Land
 
 After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using [this notebook]().
 
+The codes for the web app can be found in the [```StyleGAN-Webpage``` directory](https://github.com/hejj16/Landscape-StyleGAN/tree/main/StyleGAN-Webpage).
 
 
 
