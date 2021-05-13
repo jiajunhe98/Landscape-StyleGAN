@@ -10,8 +10,8 @@
 ### This repository contains codes which:
 - re-implement StyleGAN in PyTorch with progressive growing training, truncation layers, loss function with R1 penalty, etc;
 - progressively train StyleGAN on landscape photos;
-- classify in the disentangled latent space;
-- display the results with Dash and deploy the codes on Heroku platform.
+- classify photos by time and weather in the disentangled latent space;
+- display the results with Dash and deploy the model on Heroku platform.
 
 
 
