@@ -36,12 +36,9 @@ The codes for the web app can be found in the [```StyleGAN-Webpage```](https://g
 ### References
 
 Karras, Tero, Samuli Laine, and Timo Aila. "A Style-Based Generator Architecture for Generative Adversarial Networks." *arXiv preprint arXiv:1812.04948* (2018). https://arxiv.org/abs/1812.04948
-
-Official StyleGAN implementation: https://github.com/NVlabs/stylegan
-
-Other StyleGAN implementations: https://github.com/huangzh13/StyleGAN.pytorch
-
-Dash tutorial (Chinese): https://blog.csdn.net/lly1122334/article/details/107056777
+<br />Official StyleGAN implementation: https://github.com/NVlabs/stylegan
+<br />Other StyleGAN implementations: https://github.com/huangzh13/StyleGAN.pytorch
+<br />Dash tutorial (Chinese): https://blog.csdn.net/lly1122334/article/details/107056777
 
 
 
