@@ -5,7 +5,7 @@
 
 
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
- <br />Uncurated set of images producted by the generator. **Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!**
+ <br />Uncurated set of images producted by the generator. **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
 
 ### This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
@@ -25,7 +25,7 @@ Implentmented tricks and features:
 - [x] Loss with R1 Penalty
 - [x] Gradient Clipping
 
-The models are trained using [this notebook]() 
+The models are then trained using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb) 
 
 
 
