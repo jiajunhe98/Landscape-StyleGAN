@@ -14,8 +14,8 @@
 - display the results with Dash and deploy the model on Heroku platform.
 
 
-
- with progressive growing training, truncation layers, loss function with R1 penalty, etc
+### Details:
+The StyleGAN models can be found in ```models``` directory. Multiple tricks e.g. progressive growing training, truncation layers, R1 penalty, etc are also implemented.
 
 
 
