@@ -3,12 +3,12 @@
 ## ***......Being Updated......***
 
 
-### **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
+## **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
  <br />Uncurated set of images producted by the generator. 
 
 
-### This repository contains codes which:
+## This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
 - progressively train StyleGAN on landscape photos;
 - classify photos in the disentangled latent space;
@@ -16,7 +16,7 @@
 
 
 
-### Details:
+## Details:
 
 The StyleGAN models can be found in [```models```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/models) directory. 
 Implentmented tricks and features:
@@ -33,7 +33,7 @@ The codes for the web app can be found in the [```StyleGAN-Webpage```](https://g
 
 
 
-### References
+## References
 
 Karras, Tero, Samuli Laine, and Timo Aila. "A Style-Based Generator Architecture for Generative Adversarial Networks." *arXiv preprint arXiv:1812.04948* (2018). https://arxiv.org/abs/1812.04948
 <br />Official StyleGAN implementation: https://github.com/NVlabs/stylegan
