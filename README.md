@@ -10,7 +10,7 @@
 
 ### This repository contains codes which:
 - re-implement StyleGAN in PyTorch with progressive growing training, truncation layers, loss function with R1 penalty, etc;
-- progressively train StyleGAN on landscape photos: [notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb);
+- progressively train StyleGAN on landscape photos [here](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb);
 - classify in the disentangled latent space;
 - deploy the model and display on [this app](https://taking-non-existing-photos.herokuapp.com/).
 
