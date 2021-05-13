@@ -18,7 +18,7 @@
 
 ### Details:
 
-The StyleGAN models can be found in ```models``` directory. 
+The StyleGAN models can be found in [```models```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/models) directory. 
 Implentmented tricks and features:
 - [x] Progressive Training
 - [x] PixelNorm Layers
@@ -31,7 +31,7 @@ The models are then trained using [this notebook](https://github.com/hejj16/Land
 
 After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using [this notebook]().
 
-The codes for the web app can be found in the [```StyleGAN-Webpage``` directory](https://github.com/hejj16/Landscape-StyleGAN/tree/main/StyleGAN-Webpage).
+The codes for the web app can be found in the [```StyleGAN-Webpage```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/StyleGAN-Webpage) directory.
 
 
 
