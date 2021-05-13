@@ -15,7 +15,17 @@
 
 
 ### Details:
-The StyleGAN models can be found in ```models``` directory. Multiple tricks e.g. progressive growing training, truncation layers, R1 penalty, etc are also implemented.
+
+The StyleGAN models can be found in ```models``` directory. 
+Implentmented tricks and features:
+- Progressive Training
+- PixelNorm Layers
+- Truncation Layers
+- Style Mixing
+- Loss with R1 Penalty
+- Gradient Clipping
+
+The models are trained using [this notebook]() 
 
 
 
