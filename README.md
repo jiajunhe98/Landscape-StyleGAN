@@ -16,7 +16,7 @@
 
 
 
-## Details:
+## Details
 
 The StyleGAN models can be found in [```models```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/models) directory. 
 Implentmented tricks and features:
