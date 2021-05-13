@@ -5,9 +5,7 @@
 
 
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
- <br />Uncurated set of images producted by the generator.
- 
- **[Generate your own landscape photos!](https://taking-non-existing-photos.herokuapp.com/)**
+ <br />Uncurated set of images producted by the generator. **Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!**
 
 ### This repository contains codes which:
 - re-implement StyleGAN in PyTorch with progressive growing training, truncation layers, loss function with R1 penalty, etc;
