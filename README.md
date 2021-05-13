@@ -3,9 +3,10 @@
 ## ***......Being Updated......***
 
 
+**⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
 
 ![image](https://github.com/hejj16/Landscape-StyleGAN/blob/main/result.png)
- <br />Uncurated set of images producted by the generator. **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
+ <br />Uncurated set of images producted by the generator. 
 
 ### This repository contains codes which:
 - re-implement StyleGAN in PyTorch;
