@@ -12,7 +12,7 @@
 - re-implement StyleGAN in PyTorch;
 - train StyleGAN on landscape photos;
 - classify photos in the disentangled latent space;
-- display results on [this app](https://taking-non-existing-photos.herokuapp.com/).
+- deploy and display model on [this app](https://taking-non-existing-photos.herokuapp.com/).
 
 
 
