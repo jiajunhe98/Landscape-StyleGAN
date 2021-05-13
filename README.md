@@ -18,7 +18,7 @@
 
 The StyleGAN models can be found in ```models``` directory. 
 Implentmented tricks and features:
-- Progressive Training
+[x] Progressive Training
 - PixelNorm Layers
 - Truncation Layers
 - Style Mixing
