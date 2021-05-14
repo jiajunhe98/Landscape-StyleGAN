@@ -1,6 +1,5 @@
 # StyleGAN for Landscape Photographs
 
-## ***......Being Updated......***
 
 
 ### **⭐Generate your own landscape photos [here](https://taking-non-existing-photos.herokuapp.com/)!⭐**
@@ -27,7 +26,7 @@ Implentmented tricks and features:
 - [x] Loss with R1 Penalty
 - [x] Gradient Clipping
 
-The models are then trained using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb). After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using [this notebook]().
+The models are then trained using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb). After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/classification.ipynb).
 
 The codes for the web app can be found in the [```StyleGAN-Webpage```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/StyleGAN-Webpage) directory.
 
