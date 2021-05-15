@@ -26,7 +26,7 @@ Implentmented tricks and features:
 - [x] Loss with R1 Penalty
 - [x] Gradient Clipping
 
-The models are then trained using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb). After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/classification.ipynb).
+The models are then trained using [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/StyleGAN_20210114_R1penalty.ipynb). After training, generated photos are classified by their time(day/night/dawn&dust) and weather(aurora or not) in the disentangled latent space using small neuron network in [this notebook](https://github.com/hejj16/Landscape-StyleGAN/blob/main/notebooks/classification.ipynb).
 
 The codes for the web app can be found in the [```StyleGAN-Webpage```](https://github.com/hejj16/Landscape-StyleGAN/tree/main/StyleGAN-Webpage) directory.
 
