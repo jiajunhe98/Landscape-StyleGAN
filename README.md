@@ -11,7 +11,7 @@
 - re-implement StyleGAN in PyTorch;
 - progressively train StyleGAN on landscape photos;
 - classify photos in the disentangled latent space;
-- display the results with Dash and deploy the model on Heroku platform.
+- display the results with Dash and deploy the model on [Heroku platform](https://taking-non-existing-photos.herokuapp.com/).
 
 
 
